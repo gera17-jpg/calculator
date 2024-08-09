@@ -1,0 +1,88 @@
+:root{
+    --main: rgb(65, 61, 61);
+    --upper: rgb(16, 16, 82);
+    --w:#fff;
+    --b:#000;
+    --y:yellow;
+    --r:red;
+    --g:rgb(69, 193, 69);
+    --o: rgb(255, 149, 0);
+}
+
+.box{
+    width:50%;
+    height:auto;
+    border:2px solid var(--main);
+    border-radius: 5%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.casio{
+    margin-left: 5%;
+}
+
+.fx{
+    margin-left: 2%;
+    margin-bottom: 0;;
+}
+
+.two{
+    display:flex;
+    justify-content: space-between;
+}
+
+.two>p{
+    margin: 0;
+    padding: 0 0 5px 0;
+
+}
+
+.screen{
+    display:block;
+    width: 90%;
+    margin: 0 auto;
+    height: 3rem;
+    border:3px solid var(--b);
+    background-color: var(--g);
+    font-weight: bold;
+}
+
+.lower{
+    display:flex;
+    justify-content: space-around;
+    height:40px;
+    margin: 5px;
+}
+.replay{
+    border: 1px solid black;
+    width: 140px;
+    height:auto;
+    border-radius: 50%;
+}
+
+.replay>p,button{
+    display: inline;
+    border: solid 1px;
+}
+
+.random{
+    display: grid;
+    grid-template: repeat(4 ,1fr)/ repeat(6 ,1fr);
+    gap:2px;
+    margin: 10px;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template: repeat(4,1fr)/repeat(5,1fr);
+    gap:4px;
+    margin-bottom: 15px;
+}
+
+.main > button{
+    border: 1px solid var(--b);
+    border-radius: 0 0 5% 5%;
+}
